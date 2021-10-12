@@ -1,0 +1,30 @@
+Hello,
+
+My name is Omar, I am an international student and it is my second quarter at Seattle Central College. 
+
+My client or prefer to call as a partner is from Russia. He reached out me through friend of mine, who works as Javascript developer. 
+
+today I am going to present you my final project website. 
+Website name is ezywebuild also you can read us ezywebbuild. 
+
+
+At the top of the home page can see the logo. It redirect into the home page. 
+
+In the navigation menu u can find 4 sections such as about us, portfolio, buy our service and contact us. 
+
+Below the navigation menu we have red banner, the image is still pending from the partner side to be provided. 
+I guess the Design team is working on it currently. 
+
+Here we have a slider where we highlighting big and successful projects done from a partner side.
+Also if u click on See other projects it will redirect into the porfolio page with the rest of the projects and details
+
+In about us page we have a video introducing company and its team. 
+
+Portfolio page we have prjects. 
+
+Buy our service we provide the customers Terms and coditions also the pricing upon request. it is still under the development. waiting the information to be provided from partner side. 
+
+The last page is contact us where we have our location available and in contact info we have contact form. Let me fill in it. 
+after you are done u can submit the form and u will see it was sent. 
+
+This is the website, please let me know if see any issues or missing parts. More than happy to your suggestions otherwise we are good to go. Thank you for your cooperation. 
