@@ -1,0 +1,54 @@
+@media all and (max-width: 600px){
+    figure.projectimage {
+        width: 50%;}
+
+    figcaption.projectname {
+        margin-left: 4em;
+    }
+    aside.Projects {
+    position: relative;
+    top: 0 !important;
+    left: 8em;
+            width: 137px;
+}
+}
+
+figcaption.projectname {
+margin-left: 8em ;
+    text-align: inherit !important
+}
+
+figure.projectimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+    float: none !important;
+}
+aside.Projects {
+   position: relative;
+    top: -39em;
+    left: 8em;
+    
+}
+h2.projects {
+    text-align: center;
+    margin-right: 0em;
+}
+
+@media all and (max-width: 600px){
+    figure.projectimage {
+        width: 50%;}
+
+    figcaption.projectname {
+        margin-left: 4em;
+    }
+    aside.Projects {
+    position: relative;
+    /* top: 0em; */
+    left: 8em;
+    }
+    h2.projects {
+    text-align: center;
+    }
+}

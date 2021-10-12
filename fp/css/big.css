@@ -1,0 +1,100 @@
+html{
+    background-color: white;
+}
+main {
+    background-color: #dd0000;
+    width: 100%;
+    margin: auto;
+}
+
+h1 a{
+    text-decoration: none;
+}
+.fullwidth{
+    width: 100%;
+}
+
+aside{
+    float: right;
+    width: 31%;
+    
+}
+
+footer{
+    padding: 2em;
+    text-align: center;
+    clear: both;
+}
+
+/* Mobile Styles */
+
+@media all and (max-width: 600px){
+   main {
+    width: 100%;
+    }
+img {
+        width: 100%;
+    }
+    
+    .striped-border { 
+        margin-top: 30% !important;
+    }
+    .jsx-2754689159-header-two{
+        margin-top: 0em  !important;
+    }
+
+    section {
+    float: none;
+    width: 100%;
+    }
+
+    aside{
+    float: none;
+    width: 100%;
+    }
+}
+body {
+    background: transparent;
+}
+
+figure {
+    position: relative;
+    display: table-cell;
+    float: right;
+
+}
+
+.gallery {
+         width: 25%;
+    display: revert;
+    float: right;
+}
+.galleryimages{
+        border-radius: 25px;
+    margin-left: 17em;
+    margin-bottom: 2em;
+    margin-top: 4em;
+
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+        margin-left: 17em;
+}
+/* SEO */
+
+/* SEO */
+.gallery2 {
+      margin-left: 31em;
+}
+.striped-border { border: 1px dashed #000; width: 70%; margin: auto; margin-top: 5%; margin-bottom: 5%; }
+
+
+/*Embed Responsive Design */
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+
+/* End - Responsive Design */

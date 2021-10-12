@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/big.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+     <link rel="stylesheet" href="css/forms.css" />
+     
+
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+     <script src="js/script.js"></script>
+
+     
+ </head>
+ <body>
+        <header>
+     <a href=" fp.html"><h1 style="text-align: center;">EzyWeBuild</h1></a>
+     <nav id="cssmenu">
+   
+   <ul style=" display: block;
+             margin-left: auto;
+            margin-right: auto;
+               width: 60%;">
+     
+   <li><a href="welcome.html"><i class="fa fa-fw fa-institution"></i>About us</a>
+      </li>
+      <li><a href="projects.html"><i class="fa fa-fw fa-camera-retro"></i> Portfolio</a>
+      
+      </li>
+      <li><a href="tandc.html">Buy our service </a>
+    </li>
+     
+     <li><a href="#"><i class="fa fa-fw fa-server"></i> Contact us</a>
+         <ul>
+            <li><a href="map.html"><i class="fa fa-fw fa-map"></i> Address</a></li>
+            <li><a href="contact.php"><i class="fa fa-fw fa-contact-info"></i> Contact info</a></li>
+         </ul>
+      </li>
+  </ul>
+     </nav>
+    </header>
+     <section class="form">
+         <div class="introtext"> Please fill-in the form</div>
+<?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
+
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "omur.mamasaliev@gmail.com";  //place your/your client's email address here
+        $toName = "Jason"; //place your client's name here
+        $website = "Contact form test";  //place NAME of your client's website
+
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
+      
+        
+          <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+     </section>
+
+   <footer style="position: inherit;">
+      <p><small>&copy; 2021 by <a href="contact.php">Omurbek Mamasaliev</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+</footer>    
+     
+ </body>
+</html>
